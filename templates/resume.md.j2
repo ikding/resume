@@ -28,10 +28,3 @@
 {% for education in resume['education'] %}
 **{{ education['degree'] }}**, {{ education['department'] }}, {{ education['school'] }}, {{ education['location'] }} ({{ education['timeperiod'] }})
 {% endfor %}
-
-
-## Publications
-
-{% for publication in resume['publications']|sort(attribute='year')|reverse %}
-- {{ publication['title'] }} *{{ publication['journal'] }}* ({{ publication['year'] }}). [link]({{ publication['url'] }})
-{% endfor %}
