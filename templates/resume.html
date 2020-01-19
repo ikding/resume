@@ -23,10 +23,6 @@
             {{ resume['details']['surname'] }}
           </h1>
           <div class="btn-group" role="group" aria-label="Basic example">
-            <a href="{{ resume['contact']['email']}}" type="button" class="btn btn-light">
-              <i class="fa fa-envelope" aria-hidden="true"></i>
-              Email
-            </a>
             <a href="{{ resume['contact']['linkedin'] }}" type="button" class="btn btn-light">
               <i class="fa fa-linkedin-square" aria-hidden="true"></i>
               LinkedIn
@@ -46,6 +42,67 @@
           </div>
         </div>
       </div>
+      <br> <br>
+
+      <div class="row" id="summary-row">
+        <div class="col-12">
+          <h2>
+            <i class="fa fa-list" aria-hidden="true"></i>
+            Summary
+          </h2>
+          <br>
+          <ul>
+            {% for item in resume['summary'] %}
+            <li>{{ item['title'] }} </li>
+            {% endfor %}
+          </u>
+        </div>
+      </div>
+
+      <br>
+      <div class="row" id="experience-row">
+        <div class="col-12">
+          <h2>
+            <i class="fa fa-code" aria-hidden="true"></i>
+            Experience
+          </h2>
+        </div>
+        <div class="container" id="experience-details">
+          {% for experience in resume['experience'] %}
+          <div class="card" id="{{ experience['company']}}-card">
+            <div class="card-header">
+              <h5 class="card-title">{{ experience['title'] }}, {{ experience['company'] }}</h5>
+              <h6 class="card-subtitle text-muted">{{ experience['timeperiod'] }}, {{ experience['location'] }}</h6>
+            </div>
+            <div class="card-body">
+              <p class="card-text">{{ experience['description'] }}</p>
+            </div>
+          </div>
+          <br>
+          {% endfor %}
+        </div>
+      </div>
+
+      <br>
+      <div class="row" id="education-row">
+        <div class="col-12" id="education-title-row">
+          <h2>
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+            Education
+          </h2>
+        </div>
+      </div>
+      <div class="card-group">
+        {% for edu in resume["education"] %}
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{ edu["degree"] }}, {{ edu["school"] }}</h5>
+            <small>{{ edu["department"] }}, {{ edu["timeperiod"] }}, {{ edu["location"] }}</small>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
       <br>
       <div class="row" id="skills-title-row">
         <div class="col-12" id="skills-title-col">
@@ -70,48 +127,6 @@
         </div>
         {% endfor %}
       </div>
-      <br>
-      <div class="row" id="experience-row">
-        <div class="col-12">
-          <h2>
-            <i class="fa fa-code" aria-hidden="true"></i>
-            Experience
-          </h2>
-        </div>
-        <div class="container" id="experience-details">
-          {% for experience in resume['experience'] %}
-          <div class="card" id="{{ experience['company']}}-card">
-            <div class="card-header">
-              <h5 class="card-title">{{ experience['title'] }}, {{ experience['company'] }}</h5>
-              <h6 class="card-subtitle text-muted">{{ experience['timeperiod'] }}, {{ experience['location'] }}</h6>
-            </div>
-            <div class="card-body">
-              <p class="card-text">{{ experience['description'] }}</p>
-            </div>
-          </div>
-          <br>
-          {% endfor %}
-        </div>
-      </div>
-      <br>
-      <div class="row" id="education-row">
-        <div class="col-12" id="education-title-row">
-          <h2>
-            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-            Education
-          </h2>
-        </div>
-      </div>
-      <div class="card-group">
-        {% for edu in resume["education"] %}
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">{{ edu["degree"] }}, {{ edu["school"] }}</h5>
-            <small>{{ edu["department"] }}, {{ edu["timeperiod"] }}, {{ edu["location"] }}</small>
-          </div>
-        </div>
-        {% endfor %}
-      </div>
 
       <br>
       <hr>
@@ -128,8 +143,6 @@
         </div>
       </div>
     </div>
-
-
 
   </body>
 

@@ -4,12 +4,15 @@ details:
     surname: Ding
 
 contact:
-    phone:
-    email: ikding@alumni.stanford.edu
     website: https://ikding.github.io/
     location: Washington, DC
     github: ikding
     linkedin: https://www.linkedin.com/in/ikding
+
+summary:
+    - title: Experienced data scientist & machine learning engineer, passionate about leading and performing highly technical work to drive business value.
+    - title: Years of hands-on experience in the full lifecycle of machine learning models at scale, from business problem definition and refinement, data and feature pipelines, model development, and model deployment and monitoring in production.
+    - title: Domain expertise in financial services & semiconductor mfg.
 
 experience:
     # Use this entry as an example that can be copied/pasted.
