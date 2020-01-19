@@ -77,39 +77,42 @@ skills:
       description: Programming languages and tools that I use in my day-to-day.
       items:
         - Python
-        - HTML
-        - CSS
-        - bash scripting
+        - R
+        - Spark
+        - SQL
         - git
-        - Illustrator
-        - Indesign
-        - Photoshop
+        - GitHub
+        - Postgres
+        - PostGIS
+        - Bash
+        - InfluxDB
+        - Grafana
 
     - type: Packages
       description: Specific Python packages that I have proficiency with.
       items:
-        - Pandas
-        - PyMC3 (Bayesian statistics)
-        - Flask
+        - pandas
+        - numpy
         - scikit-learn
-        - scikit-image
-        - Keras
-        - NetworkX
-        - Mesa
+        - matplotlib
+        - seaborn
+        - h2o
+        - pytest
 
-    - type: ML/Stats
-      description: Concepts and ideas that I have mastery over.
+    - type: Cloud/DevOps
+      description: Cloud and DevOps-specific tools I have experience of.
       items:
-        - network science
-        - machine/deep learning
-        - Bayesian inference
-        - graphical models
-        - agent-based models
+        - AWS
+        - Hadoop
+        - Hive
+        - Kafka
+        - Ansible
+        - Docker
+        - CircleCI
+        - Jenkins
 
-    - type: Life Sciences
-      description: Domain expertise gained during my education.
+    - type: Domain expertise
+      description: Domain expertise gained during my work experiences.
       items:
-        - Microbiology
-        - virology
-        - biochemistry
-        - molecular biology
+        - Financial services
+        - semiconductor manufacturing
