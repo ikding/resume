@@ -12,6 +12,7 @@ contact:
 summary:
     - title: Experienced data scientist & machine learning engineer, passionate about leading and performing highly technical work to drive business value.
     - title: Years of hands-on experience in the full lifecycle of machine learning models at scale, from business problem definition and refinement, data and feature pipelines, model development, and model deployment and monitoring in production.
+    - title: Fast learner and self-starter, thrives in fast-paced environments. Ability to identify gaps in expertise in projects and programs, and filling the gaps by bringing in the right people or developing the right expertise myself.
     - title: Domain expertise in financial services & semiconductor mfg.
 
 experience:
@@ -32,7 +33,7 @@ experience:
       location: Vienna, VA
       timeperiod: 03/2017-12/2017
       description: |
-        - Built prototype tools to consume customer digital interaction event streams on Kafka, and explored NLP /  sequence models to generate insights to power personalized customer experiences over digital channels.
+        - Built prototype tools to consume customer digital interaction event streams on Kafka, and explored NLP / sequence models to generate insights to power personalized customer experiences over digital channels.
         - Interim product manager of in-house clickstream analytics platform that leverages Kafka and Snowplow. Coalesced efforts for monitoring and analysis, and coordinated user transition from legacy platform.
 
     - company: Capital One Labs
@@ -40,6 +41,7 @@ experience:
       location: Arlington, VA
       timeperiod: 04/2015-03/2017
       description: |
+        - Actively partner with internal lines of business to identify highest leverage problems, and execute on the development of data science based solutions and data products. Also serve as tech evangelist to mentor, train and teach data science techniques and software engineering best practices to cultivate self-sufficient teams.
         - Analyzed TBs of credit card transactions to identify characteristics and trends of block-level neighborhoods in selected US cities. Developed geospatial data pipelines in Python (fiona, rtree, shapely) and postgres / PostGIS, customer segmentation models in Python, and geospatial data-viz web app in R-shiny / leaflet.
         - Product owner & team lead for internal platform to automate workflows for business metrics monitoring and dashboards using Python, InfluxDB, and Grafana. Mentored 50+ analysts in 30+ teams, and implemented self-service instruction to scale adoption. (Details available on my [PyCon 2019 talk](https://www.youtube.com/watch?v=JcPwf4Ej12M) and [Capital One blog](https://www.capitalone.com/tech/software-engineering/building-python-user-community-among-capital-ones-data-analysts/))
 
@@ -48,7 +50,7 @@ experience:
       location: San Jose, CA
       timeperiod: 12/2012-04/2015
       description: |
-        - Developed statistical analysis and data visualization tool in R-shiny, reduced routine analysis time by 95%.
+        - Developed statistical analysis and data visualization tool in R-shiny to automate data analysis, which reduced routine analysis time by 95% and improved team throughput and enabled faster learning cycles.
         - Built reusable data pipelines on manufacturing line data to connect multiple processing and testing steps, and developed tree-based models to provide insight on process control capabilities and improve yield.
 
     - company: Alta Devices
@@ -56,8 +58,16 @@ experience:
       location: Sunnyvale, CA
       timeperiod: 06/2011-10/2012
       description: |
-        - Performed electrical and optical modeling to predict and improve thin film GaAs solar cell performance.
-        - Developed fabrication processes to improve solar cell efficiency, leading to [2 world records](http://www.nrel.gov/ncpv/images/efficiency_chart.jpg) and [3 patents](https://scholar.google.com/citations?user=lCtbDgkAAAAJ).
+        - Performed electrical and optical modeling in MATLAB to predict and improve solar cell performance.
+        - Developed and optimized novel, scalable fabrication processes to improve solar cell efficiency, leading to [2 world records](http://www.nrel.gov/ncpv/images/efficiency_chart.jpg) and [3 patents](https://scholar.google.com/citations?user=lCtbDgkAAAAJ).
+
+    - company: Stanford University
+      title: Stanford Graduate Fellow
+      location: Stanford, CA
+      timeperiod: 09/2006-06/2011
+      description: |
+        - Developed advanced characterization techniques and experimentally realized the new light trapping design to improve efficiency of organic-inorganic hybrid solar cells.
+        - Initiated and led collaborations with five research teams across three continents, and authored [13 papers](https://scholar.google.com/citations?user=lCtbDgkAAAAJ) that are highly cited in the field.
 
 education:
     - degree: Ph.D.
