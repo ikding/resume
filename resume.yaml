@@ -17,16 +17,23 @@ summary:
 
 experience:
     # Use this entry as an example that can be copied/pasted.
+    - company: KoBold Metals
+      title: Senior Data Scientist
+      location: Berkeley, CA
+      timeperiod: 02/2020-Present
+      # Every "description" field should be written as Markdown.
+      description: |
+        - KoBold Metals is investing in battery materials projects across the globe by combining basic ore-deposit science, big data, and scientific computing with patient private capital.
+
     - company: Capital One
       title: Manager, Data Science – Credit Card Fraud Defense
       location: McLean, VA
-      timeperiod: 12/2017-Present
-      # Every "description" field should be written as Markdown.
+      timeperiod: 12/2017-02/2020
       description: |
         - Lead data scientist for developing and deploying machine learning models for payment fraud defense of our entire credit card portfolios. The models score > 700M individual payments totaling $400B (~2% US GDP) from > 40M customers per year, led to fraud savings of > $70M / yr over legacy model, and > $150M / yr overall.
         - Built reusable, well-tested, end-to-end model development pipelines, including infrastructure provisioning on AWS-EMR, data pull and feature engineering in PySpark and SQL, gradient boosting trees models in H2O, and model monitoring stack in Python, InfluxDB, and Grafana.
-        - Re-wrote feature calculation and unit test codes in production from Java to PySpark, and help set up CICD pipelines with pytest and Jenkins. Conducted model validation in prod, allowing on-schedule deployment.
-        - Intimately involved in data scientist recruiting processes for the entire enterprise, serving as one of a handful of interviewers for on-site DS interviews, and provide feedback to shape our recruiting practices.
+        - Re-wrote feature calculation and unit test codes in production from Java to PySpark, and set up CICD pipelines with pytest and Jenkins. Conducted model validation in prod, allowing on-schedule deployment.
+        - Intimately involved in data scientist recruiting processes for the entire enterprise, serving as one of a handful of interviewers for on-site DS interviews, and providing feedback to shape our recruiting practices.
 
     - company: Capital One
       title: Manager, Data Science/PM – Enterprise Customer Intelligence
