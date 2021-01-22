@@ -1,7 +1,7 @@
 details:
     given_name: I-Kang
     middle_name:
-    surname: Ding
+    surname: Ding, Ph.D.
 
 contact:
     website: https://ikding.github.io/
@@ -110,19 +110,20 @@ skills:
       items:
         - pandas
         - numpy
+        - scipy
         - scikit-learn
         - matplotlib
         - seaborn
-        - h2o
         - pytest
+        - dask
+        - h2o
 
     - type: Cloud/DevOps
       description: Cloud and DevOps-specific tools I have experience of.
       items:
-        - AWS
+        - AWS (EC2, EMR, S3)
         - Hadoop
         - Hive
-        - Kafka
         - Ansible
         - Docker
         - CircleCI
@@ -131,5 +132,6 @@ skills:
     - type: Domain expertise
       description: Domain expertise gained during my work experiences.
       items:
+        - Geospatial analysis and modeling
         - Financial services
         - semiconductor manufacturing
